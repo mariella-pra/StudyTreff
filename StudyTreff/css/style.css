@@ -1,0 +1,100 @@
+
+:root {
+    --bg-primary: #0a0e17;
+    --bg-secondary: #121826;
+    --bg-card: #1a2036;
+    --accent-primary: #4361ee;
+    --accent-secondary: #3a56d4;
+    --accent-tertiary: #4895ef;
+    --text-primary: #f8f9fa;
+    --header-primary: #4cc9f0;
+    --text-secondary: #a9b4c2;
+    --border-color: #2d3750;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.custom-navbar {
+    background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%) !important;
+    border-radius: 20px !important;
+    margin: 8px auto !important;
+    max-width: 75% !important;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3) !important;
+    padding: 0.3rem 1rem !important;
+    border: none !important;
+    min-height: 45px !important;
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: 700 !important;
+    font-size: 1.1rem !important;
+    color: white !important;
+}
+
+.custom-navbar .nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-weight: 500 !important;
+    padding: 0.3rem 0.6rem !important;
+    border-radius: 12px !important;
+    margin: 0 0.1rem !important;
+    font-size: 0.85rem !important;
+}
+
+.custom-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.custom-profile-img {
+    width: 28px !important;
+    height: 28px !important;
+    object-fit: cover !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.navbar .nav-link.dropdown-toggle::after {
+    display: none !important;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.user-badge {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.default-pic {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 4rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.card-browse {
+    width: 30rem;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.bg-theme {
+    background: rgba(255, 255, 255, 0.05);
+}
